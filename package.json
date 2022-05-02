@@ -1,0 +1,28 @@
+{
+  "name": "quietly-existing",
+  "version": "0.1.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pulchra-mentis/quietly-existing.git"
+  },
+  "author": "pulchra mentis and Natalie C",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/pulchra-mentis/quietly-existing/issues"
+  },
+  "homepage": "https://github.com/pulchra-mentis/quietly-existing#readme",
+  "dependencies": {
+    "discord.js": "^13.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.14.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "2.6.2",
+    "typescript": "^4.6.4"
+  }
+}
