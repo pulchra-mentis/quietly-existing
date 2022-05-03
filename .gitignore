@@ -105,3 +105,6 @@ dist
 
 # discord.js
 config.json
+
+# compiled ts
+build/
