@@ -2,9 +2,13 @@
   "name": "quietly-existing",
   "version": "0.1.0",
   "description": "",
-  "main": "app.js",
+  "main": "source/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node source/app.js",
+    "lint": "npx eslint --fix",
+    "prettify": "npx prettier --write .",
+    "compile": "npx tsc",
+    "deploy-commands": "node source/deploy-commands.js"
   },
   "repository": {
     "type": "git",
