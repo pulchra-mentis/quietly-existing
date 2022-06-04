@@ -9,7 +9,9 @@ const commands = [
     .setDescription('Replies with pong!'),
   new SlashCommandBuilder()
     .setName('quietly')
-    .setDescription('Sends an anonymous message.')
+    .setDescription(
+      'Sends an anonymous message that may be logged with your username to a separate channel.',
+    )
     .addStringOption(option =>
       option
         .setName('message')
