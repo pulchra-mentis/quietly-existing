@@ -1,5 +1,5 @@
 // Require the necessary discord.js classes
-import { Client, Intents, MessagePayload, TextBasedChannel } from 'discord.js'
+import { Client, Intents, TextBasedChannel } from 'discord.js'
 import { token } from '../config.json'
 
 // Create a new client instance
