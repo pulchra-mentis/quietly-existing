@@ -10,6 +10,8 @@ The bot provides exactly one slash command, namely `/quietly`.
 
 This bot does not log any of the mssages it anonymizes to the server it runs on in the publicly available instance. Don't believe us? Check the code! Open source software is amazing that way.
 
+We can't prove that the code on the server is what is running on the public instance due to the way Discord bots work. So if you have any concerns, you can feel free to self-host the bot.
+
 # Terms of Service
 
 We assume no liability for messages sent using this bot. Nor do we provide any guarantee of the public instance's uptime/downtime. If you encounter a bug, please feel free to file a GitHub issue in relation. You can even submit a pull request!
