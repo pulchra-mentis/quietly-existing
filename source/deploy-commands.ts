@@ -5,9 +5,6 @@ import { clientID, token } from '../config.json'
 
 const commands = [
   new SlashCommandBuilder()
-    .setName('ping')
-    .setDescription('Replies with pong!'),
-  new SlashCommandBuilder()
     .setName('quietly')
     .setDescription(
       'Sends an anonymous message that may be logged with your username to a separate channel.',
