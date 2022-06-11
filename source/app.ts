@@ -23,8 +23,9 @@ client.on('interactionCreate', async interaction => {
     const user = await interaction.user.id
     await interaction.reply({
       content: `Your message is being sent anonymously in the channel you ran this command${
-        logChannel &&
-        ', but it will also be logged with your username to a separate channel in this server for review by moderators'
+        logChannel
+          ? ', but it will also be logged with your username to a separate channel in this server for review by moderators'
+          : ''
       }.`,
       ephemeral: true,
     })
