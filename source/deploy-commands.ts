@@ -15,6 +15,11 @@ const commands = [
         .setDescription('The message to anonymize.')
         .setRequired(true),
     ),
+  new SlashCommandBuilder()
+    .setName('quietly-log-status')
+    .setDescription(
+      'Indicates whether logging for *quietly existing* is enabled in this server.',
+    ),
 ].map(command => command.toJSON())
 
 const rest = new REST({ version: '9' }).setToken(token)
